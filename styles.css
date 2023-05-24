@@ -1,0 +1,462 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+  }
+  .container {
+    width: 100%;
+    margin: 0px;
+    right: 0px;
+    left: 0px;
+    top: 44.9rem;
+    background-image: url(/image/img8.jpg);
+    background-size: cover;
+  }
+
+.carousel-indicators {
+    position: absolute;
+    top: 10vw;  
+}
+.carousel-indicators li {
+      display: inline-block;
+      margin: 0 1vw;
+      width: .7vw;
+      height: .7vw;
+      margin: 0;
+      text-indent: -999px;
+      cursor: pointer;
+      background-color: #ffffff; 
+      background-color: rgba(255, 255, 255, 0); 
+      z-index: 99999;
+      border: 1px solid rgb(255, 255, 255);
+      border-radius: 4vw;
+    }
+  
+.carousel-indicators .active {
+      width: 1.2vw;
+      height: .7vw;
+      margin: 0;
+    }
+
+  #top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+    background-color: none;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+  }
+  img.logo {
+    width: 3vw;
+    margin: 1vw 10vw;
+    display: flex;
+    justify-content: center;
+  }
+  #navbar {
+    display: flex;
+    font-size: .8rem;
+    font-weight: 700;
+    align-items: center;
+    justify-content: right;
+    margin-right: 10vw;
+    margin-bottom: 0;
+  }
+  #navbar li{
+    font-style: italic;
+    list-style: none;
+    padding: 0 1rem;
+  }
+  #navbar li a{
+    text-decoration: none;
+    padding: 0 .2rem;
+    color: rgb(255, 255, 255);
+  }
+  #navbar li a:hover{
+    color: #8f633d
+  }
+
+  #home img {
+    font-size: .9rem;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: black;
+  }
+
+  #lm {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin: 1vw 10vw; */
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+    background-color: rgba(255, 255, 255, .9);
+    padding: 1vw 10vw 1vw 10vw;
+    /* width: 100vw; */
+  }
+
+  #lm #lm2 {
+    display: flex;
+  }
+
+  #lm #lm2 img{
+    width: 3vw;
+    display: flex;
+    justify-content: center;
+  }
+
+  #txt{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+  }
+
+  #txt p{
+    font-family: 'Bebas Neue', sans-serif;
+    color: rgb(83, 83, 83);
+    line-height: 1.5vw;
+    padding-left: .5rem;
+    font-size: 1.8vw;
+    margin: 0;
+    font-weight: 400;
+  }
+
+  #txt :nth-child(2) {
+    color: #414f6b;
+  }
+
+  #nav {
+    display: flex;
+    font-size: .8rem;
+    font-weight: 700;
+    align-items: center;
+    justify-content: right;
+    margin: 0;
+  }
+  #nav li{
+    font-style: italic;
+    list-style: none;
+    padding: 0 1rem;
+  }
+  #nav li a{
+    text-decoration: none;
+    padding: 0 .2rem;
+    color: #414f6b;
+  }
+  #nav li a:hover{
+    color: #8f633d
+  }
+ #one {
+    position: relative;
+    color: rgb(26, 25, 25);
+ }
+
+ #one img{
+    width: 100%;
+    height: auto;
+ }
+
+ .top-one h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 6.6vw;
+    position: absolute;
+    top: 1vw;
+    left: 10vw;
+    color: #414f6b;
+    opacity: .5;
+    margin-bottom: 1rem;
+  }
+
+  .top-two h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.2vw;
+    color: #414f6b;
+    position: absolute;
+    top: 4vw;
+    left: 16.5vw;
+  }
+
+  .top-three p{
+    text-align:justify ;
+    padding: 0 12vw 0 5vw;
+    position: absolute;
+    font-size: 1vw;
+    top: 10vw;
+    left: 8vw;
+    margin: 1vw;
+  }
+
+  #two {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: rgb(26, 25, 25);
+ }
+ 
+ .t-one h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 6.6vw;
+    position: relative;
+    left: 10vw;
+    color: #414f6b;
+    opacity: .5;
+  }
+
+  .t-two h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.2vw;
+    color: #414f6b;
+    position: relative;
+    top: .6vw;
+    left: 8.8vw;
+  }
+
+  .t-three p {
+    text-align:justify ;
+    position: relative;
+    font-size: 1vw;
+    top: 1vw;
+    left: 10vw;
+  }
+
+  #mntn {
+    background-color: #414f6b;
+    display: flex;
+    align-items: center;
+    justify-items: flex-start;
+    padding-left: 10vw;
+    margin: 0;
+    /* height: 1.4vw; */
+  }
+
+  #mntn li {
+    list-style: none;
+  }
+
+  #mntn button{
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5rem;
+    color: #b0b4be;
+    background-color: #414f6b;
+    text-decoration: none;
+    padding: 0 1vw;
+  }
+
+  #mntn #btn{
+    color: #414f6b;
+    background-color:#b0b4be ;
+  }
+
+  #mntn1 {
+    position: relative;
+  }
+
+  #myDIV{  
+    padding: 1vw;
+    line-height: 2vw;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.5);
+    top: 2vw;
+    left: 10vw;
+  }
+
+  #myDIV h1{
+    font-size: 1.8vw;
+    font-family: 'Oswald', sans-serif;
+    color: #414f6b;
+    margin: 0;
+  }
+
+  #myDIV pre{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    font-size: 1.3vw;
+  }
+
+  #lm3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5vw 10vw;
+  }
+
+  #lm3 p{
+    color: rgba(255, 255, 255, 0.3);
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: .8vw;
+    margin: 0;
+  }
+
+  .blogo {
+    display: flex;
+    align-items: center;
+  }
+
+  .blogo img{
+    width: 3vw;
+    opacity: 0.3;
+  }
+
+  #txt1{
+    padding-left: .5vw;
+    color: rgba(255, 255, 255, 0.3);
+  }
+
+  #txt1 p{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.3vw;
+    line-height: 1.4vw;
+    letter-spacing: .1vw;
+    font-weight: 100;
+  }
+
+  #color{
+    background-color: #414f6b;
+  }
+ 
+  .Categories{
+    display: block;
+    position: fixed; 
+  }
+
+
+  @media (max-width:1680px){
+    .carousel-indicators {
+      position: absolute;
+      top: 9.7vw;  
+  }
+  }
+
+  @media (max-width:1280px){
+    .carousel-indicators {
+      position: absolute;
+      top: 9.5vw;  
+  }
+  }
+
+  @media (min-width:1000px){
+    #navbar {
+      font-size: .8vw;
+    }
+    #nav {
+      font-size: .8vw;
+    }
+  }
+  @media (max-width:1050px){
+    .top-three p{
+        font-size: 1rem;
+      }
+      .t-three p {
+        font-size: 1rem;
+        margin-right: 15rem;
+      }
+      #myDIV pre{
+        font-size: 1rem;
+      }
+      .carousel-indicators {
+        position: absolute;
+        top: 9.2vw;  
+    }
+  }
+
+  @media (max-width:900px){
+    .carousel-indicators {
+      position: absolute;
+      top: 8.8vw;  
+  }
+  }
+
+  @media (max-width:750px){
+    .carousel-indicators {
+      position: absolute;
+      top: 8.5vw;  
+  }
+  }
+
+  @media (max-width:650px){
+    .top-three p{
+        font-size: .8rem;
+        padding-top: 1rem;
+      }
+      .t-three p {
+        font-size: .8rem;
+        margin-right: 15rem;
+      }
+      #myDIV pre{
+        font-size: .8rem;
+      }
+      #mntn button{
+        font-size: 1.7rem; 
+      }
+      #navbar {
+        font-size: 1.2vw;
+      }
+      #nav {
+        font-size: 1.2vw;
+      }
+      .carousel-indicators {
+        position: absolute;
+        top: 7.7vw;  
+    }
+  }
+
+  @media (max-width:450px){
+    .top-three p{
+        font-size: .65rem; 
+      }
+      .t-three p {
+        font-size: .65rem;
+        margin-right: 10rem;
+      }
+      #myDIV pre{
+        font-size: .65rem;
+      }
+      #mntn button{
+        font-size: 1.2rem; 
+        padding-top: .1rem;
+        padding-bottom: .2rem;
+      }
+      .carousel-indicators {
+        position: absolute;
+        top: 6.7vw;  
+    }
+    }
+
+  @media (max-width:350px){
+    .top-three p{
+        font-size: .5rem; 
+      }
+      .t-three p {
+        font-size: .5rem;
+        margin-right: 7rem;
+      }
+      #myDIV pre{
+        font-size: .5rem;
+      }
+      .item img{
+        filter: blur(.5);
+      }
+      .carousel-indicators {
+        position: absolute;
+        top: 6vw;  
+    }
+  }
